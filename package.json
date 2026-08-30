@@ -15,6 +15,7 @@
     "@clerk/ui": "^1.30.4",
     "@hookform/resolvers": "^5.9.1",
     "@radix-ui/react-label": "^2.1.15",
+    "@vapi-ai/web": "^2.7.0",
     "@vercel/blob": "^2.8.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
