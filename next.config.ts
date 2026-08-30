@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
    },
    experimental: {
     serverActions: {
-      bodySizeLimit: '10mb', // adjust based on your largest expected PDF
+      bodySizeLimit: '100mb', // adjust based on your largest expected PDF
     },
   }
 };
