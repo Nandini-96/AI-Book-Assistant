@@ -5,6 +5,7 @@ import {connectToDatabase} from "@/database/mongoose";
 import {escapeRegex, generateSlug, serializeData} from "@/lib/utils";
 import Book from "@/database/models/book.model";
 import BookSegment from "@/database/models/book-segment.model";
+import mongoose from "mongoose";
 
 //server actions/functions (which means they are going to be run on server) for book management
 
