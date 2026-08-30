@@ -110,8 +110,10 @@ const UploadForm = () => {
             });
 
             if (!book.success) {
-                console.error("createBook failed:", book.error);
-                toast.error("Failed to create book record. Please try again.");
+                toast.error(book.error as string || "Failed to create book");
+                if(book.isBillingError){
+                    router.push("/subscriptions");
+                }
                 return;
             }
             if(book.alreadyExists) {
