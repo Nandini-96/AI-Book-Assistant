@@ -264,7 +264,7 @@ export function useVapi(book: IBook) {
                 voice: {
                     provider: '11labs' as const,
                     voiceId: getVoice(voice).id,
-                    model: 'eleven_turbo_v2_5' as const,
+                    model: 'eleven_flash_v2_5' as const,
                     stability: VOICE_SETTINGS.stability,
                     similarityBoost: VOICE_SETTINGS.similarityBoost,
                     style: VOICE_SETTINGS.style,
